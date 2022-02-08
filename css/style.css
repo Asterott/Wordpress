@@ -49,7 +49,6 @@ h1 {
 	font-family: "Roboto - Black";
 	font-size: 41px;
 	font-weight: 400;
-	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -375,6 +374,10 @@ footer a:hover {
         background: url("../img/bg/main_bg.jpg") -320px center/cover no-repeat;
     }
 
+	.title {
+		line-height: 40px;
+	}
+
 	.waiting .waiting_wrapper .waiting_item {
 		width: 300px;
 	}
@@ -394,10 +397,6 @@ footer a:hover {
 }
 
 @media (max-width: 991px) {
-	.title {
-		line-height: 40px;
-	}
-
     .waiting {
         min-height: 570px;
         padding: 50px 20px;
@@ -527,6 +526,7 @@ footer a:hover {
 
     .title {
         font-size: 35px;
+		line-height: 35px;
     }
 
     .simple .title_big {
@@ -612,7 +612,7 @@ footer a:hover {
     .title,
     h2.title {
         font-size: 22px;
-        line-height: 30px;
+        line-height: 25px;
         margin-top: 20px;
     }
 
